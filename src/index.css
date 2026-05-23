@@ -1,0 +1,22 @@
+:root {
+  --primary: 210 100% 50%;
+  --card: 0 0% 100%;
+}
+
+.high-contrast {
+  --primary: 60 100% 50%;
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --muted-foreground: 0 0% 85%;
+  --card: 0 0% 5%;
+  --border: 0 0% 100%;
+}
+
+.high-contrast .hero-overlay {
+  opacity: 0 !important;
+}
+
+.high-contrast .hero-watermark {
+  opacity: 0.03 !important;
+  filter: grayscale(1) contrast(1.05) blur(1.5px) !important;
+}
